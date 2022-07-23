@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>element</title>
+	<style type="text/css">
+		#a{
+			border: 1px solid black;
+			width: 400px;
+			height: 400px;
+			background-color: blue;
+			color: white;
+		}
+		#a fullscreen{
+			background-color: skyblue;
+
+		}
+		#a fullscreen p{
+			color: magenta;
+		}
+	</style>
+</head>
+<body>
+	<div id="a">
+		<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		
+	</div><br>
+	<button onclick="document.getElementById('a').requestFullscreen();">Click Here</button>
+
+</body>
+</html>

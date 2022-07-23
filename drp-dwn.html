@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Drop Down</title>
+	<style type="text/css">
+		.main{
+			height: 50px;
+			width: 80px;
+		}
+		.btn{
+			height: 100%;
+			width: 100%;
+			background: peachpuff;
+			font-size: 25px;
+		}
+		.content{
+			background: gray;
+			display: none;
+
+		}
+		a{
+			text-decoration: none;
+			color: white;
+			display: block;
+			padding: 6px;
+		}
+		.main:hover .content{
+			display: block;
+		}
+
+		a:hover{
+			color: magenta;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<button class="btn">Color</button>
+		<div class="content">
+			<a href="">Red</a>
+			<a href="">Greeen</a>
+			<a href="">Yellow</a>
+			<a href="">Blue</a>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>

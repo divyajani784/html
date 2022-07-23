@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hidden</title>
+	<style type="text/css">
+		.f1{
+
+			
+
+			}
+		.f2{
+			display: flex;
+			justify-content: space-between;
+			column-gap: 80px;
+			/*margin-left: 70px;*/
+			height: 100px;
+			width: 100px;
+			position: relative;
+			bottom: 0px;
+		}
+		.b2{
+			font-size: 10px;
+			height: 30px;
+			width: 200px;
+			transition: 1s;
+			position: absolute;
+			opacity: 0;
+			left: 0px;
+			/*margin-top: 200px;*/
+			bottom: -60px;
+
+
+		}
+		.f2:hover .b2 {
+			opacity: 1;
+			bottom: 0;
+
+
+		}	
+
+		
+	</style>
+</head>
+<body>
+<div  class="f1">
+	<div class="f2">
+		<img style="height: 200px;width: 200px;" src=" products/f1.jpg">
+		<input class="b2" type="button" name="" value="Add To Cart">
+	<div class="f2">
+		<img style="height: 200px;width: 200px;" src=" products/f2.jpg">
+		<input class="b2" type="button" name="" value="Add To Cart">
+	</div>
+	<div class="f2">
+		<img style="height: 200px;width: 200px;" src=" products/f3.jpg">
+		<input class="b2" type="button" name="" value="Add To Cart">
+	</div>
+	
+		
+	<div class="f2">
+		<img style="height: 200px;width: 200px;" src=" products/f4.jpg">
+		<input class="b2" type="button" name="" value="Add To Cart">
+
+		
+	</div>
+</div>
+
+</body>
+</html>
